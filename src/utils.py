@@ -29,7 +29,7 @@ def read_excel(file_path: Union[str, Path]) -> DataFrame:
     return df
 
 
-def reports_result(filename=None) -> str:
+def reports_result(filename=None) -> any:
     """Внешняя функция, которая принимает аргумент filename для декоратора,
     для создания файла с результатами работы функции"""
 
